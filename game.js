@@ -61,11 +61,11 @@ let questions = [
     questionImage: "<img alt='trees in downtown' src='images/facts-health.jpg' width='100%'>",
     question: "Of trees surveyed in D.C., what percentage were found to be in good to excellent health?",
     explanation: "Tree health helps determine how resilient the canopy can be when faced with various pests and diseases.",
-    choice1: "62%",
-    choice2: "91%", 
+    choice1: "75%",
+    choice2: "62%", 
     choice3: "91%",
     choice4: "83%",
-    answer: 1
+    answer: 4
     },
 ]
 
