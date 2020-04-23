@@ -84,7 +84,7 @@ startGame = () => {
 getNewQuestion = () => {
    if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
         //go to the end page
-        return window.location.assign("https://connect.clickandpledge.com/w/Form/8a8f1fb9-0cca-45e5-8df9-6b8f989c75df?trk=eoy19quiz");
+        return window.location.assign("https://connect.clickandpledge.com/w/Form/fde9cd97-fc42-4d0e-a5e5-1fbe1322bf83?trk=spring20quiz");
       }
 
     questionCounter++;
