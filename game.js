@@ -18,16 +18,6 @@ let availableQuestions = [];
 
 let questions = [
     {
-        questionImage: "<img alt='tulip leaves in the fall' src='images/facts-tulip.jpg' width='100%'>",
-        question: "What is the main role of leaves?",
-        explanation: "Plants use a process called photosynthesis to make food. During photosynthesis, plants trap light energy with their leaves. Plants use the energy of the sun to change water and carbon dioxide into a sugar called glucose. Glucose is used by plants for energy and to make other substances like cellulose and starch.",
-        choice1: "To soak up and convert sunlight into food ",
-        choice2: "To protect against insects and animals",
-        choice3: "To attract bees for pollination",
-        choice4: "To keep the bark protected from UV rays",
-        answer: 1
-    },
-    {
         questionImage: "<img alt='a tall sycamore tree' src='https://caseytrees.org/wp-content/uploads/2019/07/american-sycamore-51542.jpg' width='100%'>",
         question: "Which of the following plants is the closest relative to sycamore trees?",
         explanation: "Ficus sycomorus, called the sycamore fig or the fig-mulberry (because the leaves resemble those of the mulberry), sycomorus is a fig species that has been cultivated since ancient times.",
@@ -91,7 +81,7 @@ let questions = [
 
 //CONSTANTS
 const CORRECT_BONUS = 10;
-const MAX_QUESTIONS = 7;
+const MAX_QUESTIONS = 6;
 
 startGame = () => {
     questionCounter = 0;
